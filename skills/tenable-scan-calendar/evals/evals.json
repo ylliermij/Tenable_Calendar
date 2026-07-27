@@ -1,0 +1,17 @@
+{
+  "skill_name": "tenable-scan-calendar",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "What Tenable scans are coming up this week? Put them on my calendar along with how many findings (by severity) showed up in their last completed run.",
+      "expected_output": "One calendar event per actively-scheduled Tenable scan whose next run falls in the next 7 days. Each event includes the projected run time and a severity breakdown (critical/high/medium/low/informational) from the most recent completed run of that scan. Scans that are disabled, broken, or unscheduled are excluded and any uncertainty (inferred timing, missing history) is called out to the user.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "I have a security review with my manager Monday morning. Before then, can you check if any Tenable scans are scheduled to run this week and get their severity counts from the last run onto my calendar so I'm not caught off guard?",
+      "expected_output": "Same core behavior, but this prompt doesn't mention 'calendar sync' explicitly by name - tests whether the skill still triggers from a scenario/context-driven request. Should still identify scheduled scans in the next 7 days and create calendar events with last-run severity data.",
+      "files": []
+    }
+  ]
+}
