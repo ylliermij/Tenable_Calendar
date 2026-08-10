@@ -14,7 +14,6 @@ works_with_tenable_hexa_mcp: false
 compatible_platforms: ["Claude Cowork"]
 invocation: "tenable-scan-calendar"
 ---
----
 
 # Tenable Scan → Calendar Sync
 
