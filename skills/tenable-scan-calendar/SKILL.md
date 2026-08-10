@@ -1,6 +1,4 @@
----
-name: tenable-scan-calendar
-description: Syncs Tenable VM Scan jobs to your Google Calendar.
+
 ---
 name: tenable-scan-calendar
 author: ylliermij
