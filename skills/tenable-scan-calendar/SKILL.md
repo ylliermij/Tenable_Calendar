@@ -1,6 +1,21 @@
 ---
 name: tenable-scan-calendar
-description: Puts Tenable Vulnerability Management scans that are actively scheduled to run in the next 7 days onto the user's calendar, with each calendar event showing the severity breakdown (critical/high/medium/low/informational findings) from that scan's last completed run. Use this whenever the user asks what Tenable scans are coming up, asks to put scans on their calendar, asks about scan schedules combined with a calendar request, or wants a weekly heads-up on upcoming vulnerability scans and their recent results. Trigger even if the user just says something like "sync my scans to my calendar" or "what's scanning this week" without naming Tenable explicitly, as long as scan scheduling is clearly the topic.
+description: Syncs Tenable VM Scan jobs to your Google Calendar.
+---
+name: tenable-scan-calendar
+author: ylliermij
+github_url: https://github.com/ylliermij/Tenable_Calendar
+description: Syncs Tenable VM Scan jobs to your Google Calendar.
+license: "MIT"
+tier: "contributed"
+tags: ["tag1", "tag2"]
+integrations: ["Tenable"]
+date_added: 2026-07-09
+contribution_agreement_date: 2026-07-09T14:30:00Z
+works_with_tenable_hexa_mcp: false
+compatible_platforms: ["Claude Cowork"]
+invocation: "tenable-scan-calendar"
+---
 ---
 
 # Tenable Scan → Calendar Sync
