@@ -2,11 +2,11 @@
 ---
 name: tenable-scan-calendar
 author: ylliermij
-github_url: https://github.com/ylliermij/tenable_scan_calendar
+github_url: https://github.com/ylliermij/Tenable_Calendar
 description: Syncs Tenable VM Scan jobs to your Google Calendar.
-license: "MIT"
+license: "Apache-2.0"
 tier: "contributed"
-tags: ["tag1", "tag2"]
+tags: ["calendar", "scan-scheduling", "vulnerability-management"]
 integrations: ["Tenable"]
 date_added: 2026-07-09
 contribution_agreement_date: 2026-07-09T14:30:00Z
